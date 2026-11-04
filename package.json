@@ -1,7 +1,7 @@
 {
   "name": "goosetext",
   "productName": "GooseText",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "private": true,
   "description": "GooseText — заметки, конспекты, сценарии, рисунки и напоминания с гусем-помощником",
   "author": "GooseText",

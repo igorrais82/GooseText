@@ -1,16 +1,18 @@
-# GooseText 1.0
+﻿# GooseText 4.0 — первый публичный релиз
 
 **Тексты с гусем.** Заметки, конспекты, сценарии, рисунки и напоминания — с проверкой ошибок,
 пересказом своими словами, переводом, AI-озвучкой, планом текста, папками и маскотом-гусём Гошей.
 Данные хранятся локально, без аккаунтов и облака.
 
+> Релиз на GitHub — **v1.0** (первый публичный выпуск), версия приложения — **4.0**.
+
 ![GooseText в светлой теме](https://raw.githubusercontent.com/igorrais82/GooseText/main/docs/screenshots/01-app-light.png)
 
-## Что нового в 1.0
+## Что нового в 4.0
 
 - **Android-приложение**: полноценный APK на Capacitor 7 — свой значок и заставка, офлайн-запуск,
   экспорт файлов через системное меню «Поделиться», разрешения на микрофон и уведомления.
-- **Стабильная версия**: Windows и Android собираются из одного коммита, единая нумерация версий.
+- **Версия 4.0**: линейка продолжилась после прототипа 0.4, сборки Windows и Android идут из одного коммита.
 - **Версия в интерфейсе**: «Настройки → О программе» берёт номер из `package.json`.
 - **Скрипты сборки**: `pnpm android:sync` и `pnpm android:apk`.
 
@@ -22,9 +24,9 @@
 
 | Платформа | Файл | Размер | Что это |
 | --- | --- | --- | --- |
-| **Windows 10/11 x64** | **[GooseText-Setup-1.0.0.exe](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-Setup-1.0.0.exe)** | ~117 МБ | Установщик: ярлыки в «Пуск» и на рабочем столе |
-| **Windows 10/11 x64** | **[GooseText-1.0.0-portable.exe](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-1.0.0-portable.exe)** | ~106 МБ | Портативная версия: один файл, ничего не устанавливает |
-| **Android 6.0+** | **[GooseText-1.0.0.apk](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-1.0.0.apk)** | ~4 МБ | Приложение для телефона и планшета |
+| **Windows 10/11 x64** | **[GooseText-Setup-4.0.0.exe](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-Setup-4.0.0.exe)** | ~117 МБ | Установщик: ярлыки в «Пуск» и на рабочем столе |
+| **Windows 10/11 x64** | **[GooseText-4.0.0-portable.exe](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-4.0.0-portable.exe)** | ~106 МБ | Портативная версия: один файл, ничего не устанавливает |
+| **Android 6.0+** | **[GooseText-4.0.0.apk](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-4.0.0.apk)** | ~4 МБ | Приложение для телефона и планшета |
 
 ### Установка на Windows
 

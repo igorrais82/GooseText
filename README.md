@@ -1,4 +1,4 @@
-# GooseText 1.0
+# GooseText 4.0
 
 **Тексты с гусем.** Заметки, конспекты, сценарии, рисунки и напоминания — с проверкой
 ошибок, пересказом своими словами, переводом, AI-озвучкой, планом текста, папками
@@ -14,24 +14,28 @@
 - **Windows** — настольное приложение (Electron): своё окно, ярлыки, установщик и портативная версия.
 - **Android** — приложение в APK и та же кодовая база как PWA: ставится на телефон, работает офлайн.
 
+> **Нумерация.** Релиз на GitHub называется **v1.0** — это первый публичный выпуск.
+> Версия самого приложения — **4.0**: она видна в «Настройки → О программе», в имени
+> установщика и в APK (в именах файлов — `4.0.0`).
+
 ## Скачать
 
 | Платформа | Файл | Что это |
 | --- | --- | --- |
-| **Windows** | [GooseText-Setup-1.0.0.exe](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-Setup-1.0.0.exe) | Установщик: ярлыки в «Пуск» и на рабочем столе, удаление через «Параметры → Приложения» |
-| **Windows** | [GooseText-1.0.0-portable.exe](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-1.0.0-portable.exe) | Портативная версия: один файл, ничего не устанавливает |
-| **Android** | [GooseText-1.0.0.apk](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-1.0.0.apk) | APK для телефона и планшета, Android 6.0 и новее |
+| **Windows** | [GooseText-Setup-4.0.0.exe](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-Setup-4.0.0.exe) | Установщик: ярлыки в «Пуск» и на рабочем столе, удаление через «Параметры → Приложения» |
+| **Windows** | [GooseText-4.0.0-portable.exe](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-4.0.0-portable.exe) | Портативная версия: один файл, ничего не устанавливает |
+| **Android** | [GooseText-4.0.0.apk](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-4.0.0.apk) | APK для телефона и планшета, Android 6.0 и новее |
 
 Все файлы — на [странице релиза v1.0](https://github.com/igorrais82/GooseText/releases/tag/v1.0).
 
 ---
 
-## Что нового в 1.0
+## Что нового в 4.0
 
 | Возможность | Что сделано |
 | --- | --- |
 | **Android-приложение** | Полноценный APK на Capacitor: свой значок и заставка, офлайн-запуск, доступ к файлам, микрофон и уведомления. Ставится без магазина приложений. |
-| **Стабильная версия** | Версия 1.0 вместо прототипа 0.4: сборки Windows и Android из одного коммита, единая нумерация, версия видна в «Настройки → О программе». |
+| **Версия 4.0** | Линейка продолжилась после прототипа 0.4: сборки Windows и Android из одного коммита, версия видна в «Настройки → О программе». |
 | **Версия в интерфейсе** | Строка «О программе» берёт номер из `package.json`, поэтому сборки больше не расходятся с документацией. |
 | **Скрипты сборки** | `pnpm android:sync` и `pnpm android:apk` — сборка APK одной командой. |
 
@@ -55,8 +59,8 @@
 | Что | Где |
 | --- | --- |
 | Установленное приложение | `%LOCALAPPDATA%\Programs\GooseText\GooseText.exe` |
-| Установщик (для другого ПК) | `release/GooseText-Setup-1.0.0.exe` — [скачать](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-Setup-1.0.0.exe) |
-| Портативная версия | `release/GooseText-1.0.0-portable.exe` — [скачать](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-1.0.0-portable.exe) |
+| Установщик (для другого ПК) | `release/GooseText-Setup-4.0.0.exe` — [скачать](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-Setup-4.0.0.exe) |
+| Портативная версия | `release/GooseText-4.0.0-portable.exe` — [скачать](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-4.0.0-portable.exe) |
 | Ярлык в проекте | [`GooseText.lnk`](GooseText.lnk) |
 
 Сами `.exe` и `.apk` в репозиторий не кладутся (слишком большие) — они лежат
@@ -76,7 +80,7 @@
 
 ## Установка на Android
 
-1. Скачайте [`GooseText-1.0.0.apk`](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-1.0.0.apk)
+1. Скачайте [`GooseText-4.0.0.apk`](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-4.0.0.apk)
    на телефон (или скачайте на компьютер и перекиньте файл).
 2. Откройте файл в «Загрузках». Android спросит разрешение на установку из этого источника —
    разрешите его для «Файлов» или браузера.
@@ -359,7 +363,7 @@ keyAlias=goosetext
 keyPassword=…
 ```
 
-Готовый файл: `android/app/build/outputs/apk/release/GooseText-1.0.0.apk`.
+Готовый файл: `android/app/build/outputs/apk/release/GooseText-4.0.0.apk`.
 Значок и заставка Android перерисовываются из логотипа:
 `python tools/make-android-assets.py`.
 
@@ -465,7 +469,7 @@ python tools/make-android-assets.py # значки и заставки Android
 
 ---
 
-## Ограничения версии 1.0
+## Ограничения версии 4.0
 
 - **Оплата не подключена**: лицензия активируется ключом, демо-ключ лежит в окне активации.
 - **APK не в Google Play**: ставится вручную, обновления — новым APK поверх старого.

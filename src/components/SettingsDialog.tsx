@@ -10,6 +10,9 @@ import { Modal } from './Dialogs';
 
 type Section = 'appearance' | 'behavior' | 'license' | 'data' | 'about';
 
+/** Версия приложения без хвостовых нулей: 4.0.0 → 4.0. */
+const APP_VERSION = __APP_VERSION__.replace(/\.0+$/, '');
+
 const SECTIONS: { key: Section; label: string; icon: 'palette' | 'sliders' | 'key' | 'download' | 'info' }[] = [
   { key: 'appearance', label: 'Оформление', icon: 'palette' },
   { key: 'behavior', label: 'Поведение', icon: 'sliders' },
@@ -464,7 +467,7 @@ export function SettingsDialog({
               <div className="about">
                 <div>
                   <div className="about__title">
-                    {`GooseText ${__APP_VERSION__} · ${
+                    {`GooseText ${APP_VERSION} · ${
                       isDesktop ? 'приложение для Windows' : isAndroidApp ? 'приложение для Android' : 'веб-версия'
                     }`}
                   </div>
