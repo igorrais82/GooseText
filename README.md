@@ -55,9 +55,13 @@
 | Что | Где |
 | --- | --- |
 | Установленное приложение | `%LOCALAPPDATA%\Programs\GooseText\GooseText.exe` |
-| Установщик (для другого ПК) | [`release/GooseText-Setup-1.0.0.exe`](release/GooseText-Setup-1.0.0.exe) |
-| Портативная версия | [`release/GooseText-1.0.0-portable.exe`](release/GooseText-1.0.0-portable.exe) |
+| Установщик (для другого ПК) | `release/GooseText-Setup-1.0.0.exe` — [скачать](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-Setup-1.0.0.exe) |
+| Портативная версия | `release/GooseText-1.0.0-portable.exe` — [скачать](https://github.com/igorrais82/GooseText/releases/download/v1.0/GooseText-1.0.0-portable.exe) |
 | Ярлык в проекте | [`GooseText.lnk`](GooseText.lnk) |
+
+Сами `.exe` и `.apk` в репозиторий не кладутся (слишком большие) — они лежат
+в [разделе Releases](https://github.com/igorrais82/GooseText/releases/tag/v1.0); после
+`pnpm desktop:dist` они появляются в `release/`.
 
 Установщик ставит приложение только для текущего пользователя (администратор не нужен),
 создаёт ярлыки на рабочем столе и в меню «Пуск». Удаление — «Параметры → Приложения → GooseText».
